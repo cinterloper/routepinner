@@ -1,0 +1,9 @@
+config-dir=/etc/powerdns
+forward-zones-recurse=example.com=127.8.0.1,.=8.8.8.8
+hint-file=/usr/share/dns/root.hints
+local-address=127.0.0.1
+quiet=yes
+security-poll-suffix=
+setgid=pdns
+setuid=pdns
+
