@@ -41,6 +41,7 @@ end
 
 function startev() 
   turbo.ioloop.instance():start()
+  turbo.ioloop.add_signal_handler(turbo.signal.SIGINT,stopev)
 end
 function stopev() 
   turbo.ioloop.instance():stop()

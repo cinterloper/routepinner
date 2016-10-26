@@ -7,7 +7,6 @@
 # bash function to be called from within lua context
 
 #gwip=PUT YOUR GATEWAY IP here to pin hosts to
-VARS=( CONFIGDIR )
 
 VARS=( gwip )
 

@@ -2,7 +2,7 @@
 pdnslog("pdns-recursor Lua script starting!", pdns.loglevels.Warning)
 
 routeset = newDS()
-routeset:add{"example.com"}
+routeset:add{"ripple.com"}
 function postresolve(dq)
 	print("postresolve called for ",dq.qname:toString())
 	print("lua path:", package.path)
